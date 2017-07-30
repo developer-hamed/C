@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main(void)
+{
+	int a;
+	clrscr();
+	printf(" Enter a number:");
+	scanf("%d",&a);
+	if(a%5==0)
+		printf(" %d could be divided by 5.",a);
+	else
+		printf(" %d could not be divided by 5.",a);
+	gotoxy(1,24);
+	printf("Press any key to exit...");
+	getch();
+}
